@@ -6,7 +6,7 @@ import Nothing from './components/nothing'
 const Admin = () => {
     const [sidebarcontent, setSidebarcontent] = useState("home")
     return (
-        <div>
+        <div  className='min-h-screen'>
             {/* <div><Sidebar sidebarcontent={sidebarcontent} /></div>
             <div className={styles.content}>
                 {sidebarcontent==="home"?<Home />:<Nothing />}
